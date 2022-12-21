@@ -1,12 +1,12 @@
 import React from "react"
-import TodosList from "./TodosList";
+
 //This can be our resources page
+// Notice that when I use layout.tsx that I dont need to style this page.tsx
 
 function Todos() {
     return (
         <div>
-            {/* @ts-ignore */}
-            <TodosList />
+            <h1> This is where todos will be listed... </h1>
         </div>
     )
 }
