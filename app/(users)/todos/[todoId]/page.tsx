@@ -1,5 +1,5 @@
 import React from 'react'
-import { Todo } from '../../../typings'
+import { Todo } from '../../../../typings'
 import { notFound } from 'next/navigation'
 
 export const dynamicParams = true // true by default, this is a keyword we can export that tells nextjs that we want to try to SSR a page
